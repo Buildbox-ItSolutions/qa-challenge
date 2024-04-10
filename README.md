@@ -7,6 +7,8 @@ Este desafio consiste em avaliar seu conhecimento e habilidades em testes automa
 
 O Desafio é o seguinte:
 
+Acesse esse link https://qastage.buildbox.one/18/cadastro 
+
 Desenvolva casos de teste automatizados para validar o processo de cadastro em uma Aplicação Web. Os testes devem cobrir diferentes cenários, incluindo entradas válidas e inválidas, verificação de campos obrigatórios, validação de formatos de dados, entre outros aspectos relevantes para garantir a funcionalidade da tela de cadastro.
 
 Projetos que demonstrarem uso eficiente do Cypress, bem como a implementação de comandos personalizados, serão valorizados e receberão pontos adicionais.
