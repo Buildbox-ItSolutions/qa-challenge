@@ -13,7 +13,7 @@ Desenvolva casos de teste automatizados para validar o processo de cadastro em u
 
 Projetos que demonstrarem uso eficiente do Cypress, bem como a implementação de comandos personalizados, serão valorizados e receberão pontos adicionais.
 
-Certifique-se de incluir seu nome, e-mail e número de celular na descrição do seu pull request para nossa avaliação e contato.
+Certifique-se de que seu pull request está sendo enviado no link do formulário de submissão para a vaga.
 
 Estou ansioso para ver sua abordagem criativa e eficiente para este desafio de testes automatizados.
 Boa sorte!
