@@ -81,7 +81,7 @@ describe('Cadastrar usuário', () => {
     cy.cadastro_dados_pessoais(credentialsPersona.firstName, credentialsPersona.lastName, credentialsPersona.birthDate, credentialsPersona.cpf, credentialsPersona.email, credentialsPersona.password)
 
     //Coloca as informações necessárias com dados válidos na tela de endereço
-    cy.get('[data-cy="input-signup-address-cep"]').type('00000000')
+    cy.get('[data-cy="input-signup-address-cep"]').type(credentialsWrong.cep)
     cy.get('[data-cy="input-signup-address-number"]').type(credentialsPersona.number)
     cy.get('.toast').should('contain', 'CEP não encontrado')
   })
