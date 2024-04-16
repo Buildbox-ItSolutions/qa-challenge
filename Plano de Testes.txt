@@ -1,0 +1,29 @@
+Plano de Testes
+	Cenários
+		CN1 - Caminho feliz
+			CT1 - cadastro realizado com sucesso
+		CN1 - Validar responsividade
+			CT1 - Mobile
+			CT2 - Desktop
+		CN2 - Validar input data
+			CT3 - Correta
+			CT4 - Formato incompleta
+			CT5 - Data futura
+		CN4 - Validar input cpf
+			CT6 - certo
+			CT6 - Faltando numeros
+			CT6 - Já usado
+		CN3 - Validar input email
+			CT6 - certo
+			CT6 - errado - sem @
+			CT6 - errado - sem .com
+			CT6 - Já cadastrado
+		CN5 - Validar input cep
+			CT - Preencher com CEP que não existe
+
+Defeitos encontrados durante testes exploratórios:
+- No input da data de nascimento, se preenchermos com "0101", fica apenas com as bordas vermelhas sem dar informação de campo incorreto
+- Quando deixamos o input "name" vazio e depois preenchermos com até 3 letras, as letras do nome ficam em vermelho
+- CPF não valida a lógica do valor, apenas a quantidade e se já está cadastrado
+- Depois de preencher uma vez errada, o input de confirmação do e-mail fica com valor em vermelho mesmo quando certo
+- A informação 

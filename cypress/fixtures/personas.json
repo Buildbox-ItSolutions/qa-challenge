@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Pedro",
+        "lastName": "Gondim",
+        "birthDate": "01011990",
+        "cpf": "42716816018",
+        "email": "novo_email@email.com",
+        "password": "12345",
+        "languageProficiency": "Advanced",
+        "cep": "38412012",
+        "residenceNumber": 100,
+        "bairro": "Tubalina",
+        "complement": "Ap 101"   
+    },
+    {
+        "name": "Pedro",
+        "lastName": "Gondim",
+        "birthDate": "01011990",
+        "cpf": "18113641017",
+        "email": "email@naoexiste.com",
+        "password": "12345",
+        "languageProficiency": "Advanced",
+        "cep": "38412011",
+        "residenceNumber": 100,
+        "bairro": "Tubalina",
+        "complement": "Ap 101"   
+    }
+]
