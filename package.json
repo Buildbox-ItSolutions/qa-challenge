@@ -1,0 +1,24 @@
+{
+  "name": "qastage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Eliezer Castro",
+  "scripts": {
+    "cy:run": "cypress open",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:firefox": "cypress run --browser firefox",
+    "cy:run:report": "npx cypress run --reporter mochawesome"
+  },
+  "dependencies": {
+    "cypress": "^13.7.3",
+    "faker-brasil": "^1.0.2",
+    "mochawesome": "^7.1.3"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "cypress-plugin-tab": "^1.0.5",
+    "typescript": "^5.4.5",
+    "validation-br": "^1.4.5"
+  }
+}
