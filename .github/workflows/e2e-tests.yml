@@ -1,0 +1,26 @@
+name: Cypress Tests
+
+on: push
+
+jobs:
+  cypress-run:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: 🔄 Checkout
+        uses: actions/checkout@v4
+
+      - name: 🛠️ Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "20"
+
+      - name: 📦 Install Yarn
+        run: npm install yarn
+
+      - name: ⬇️ Install Dependencies
+        run: yarn install
+
+      - name: 🚀 Cypress run
+        uses: cypress-io/github-action@v6
+        with:
+          start: yarn cy
