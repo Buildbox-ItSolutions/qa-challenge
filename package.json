@@ -1,0 +1,25 @@
+{
+  "name": "qa-challenge",
+  "version": "1.0.0",
+  "description": "Desafio técnico de QA Analyst na Buildbox.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eudanilobarbosa/qa-challenge.git"
+  },
+  "keywords": [
+    "Cypress"
+  ],
+  "author": "Danilo S. Barbosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eudanilobarbosa/qa-challenge/issues"
+  },
+  "homepage": "https://github.com/eudanilobarbosa/qa-challenge#readme",
+  "devDependencies": {
+    "cypress": "^13.7.3"
+  }
+}
