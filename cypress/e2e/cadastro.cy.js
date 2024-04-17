@@ -11,10 +11,10 @@ describe('cadastro', () => {
 
     const lead = data.create
 
+    cy.get('[data-cy="button-btn-enroll"]').click()
+
     cy.contains('h2', 'Dados Pessoais e de acesso') // checkpoint step 01
       .should('exist')
-
-    cy.get('[data-cy="button-btn-enroll"]').click()
 
     // step 01/02
     cy.signupPersonal(lead)
@@ -62,7 +62,7 @@ describe('cadastro', () => {
     })
   })
 
-  it.only('cliente já cadastrado com esse cpf', () => {
+  it('cliente já cadastrado com esse cpf', () => {
 
     const lead = data.create
 
