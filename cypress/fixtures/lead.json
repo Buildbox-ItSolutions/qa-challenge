@@ -1,0 +1,45 @@
+{
+    "create": {
+      "firstName": "Rusty",
+      "lastName": "McRibbons",
+      "birthDate": "23051986",
+      "cpf": "28861951031",
+      "email": "rusty.mcribbons@laughablecorp.com",
+      "password": "pass1a5",
+      "englishLevel": "Advanced",
+      "address": {
+        "cep": "30130170",
+        "country": "Brasil",
+        "state": "MG",
+        "city": "Belo Horizonte",
+        "neighborhood": "Boa Viagem",
+        "street": "Rua Sergipe - até 519/520",
+        "number": "10",
+        "complement": "Apartamento 1001"
+      }
+    },
+    "duplicate": {
+      "firstName": "Betsy",
+      "lastName": "Pancakes",
+      "birthDate": "29021990",
+      "cpf": "01387880063",
+      "email": "betsy.pancakes@sillinessinc.net",
+      "password": "pass1a5",
+      "englishLevel": "Intermediate",
+      "address": {
+        "cep": "13092117",
+        "country": "Brasil",
+        "state": "SP",
+        "city": "Campinas",
+        "neighborhood": "Nova Campinas",
+        "street": "Rua Augusto César de Andrade",
+        "number": "1567",
+        "complement": " "
+      }
+    },
+    "invalid": {
+      "firstName": "Ava",
+      "lastName": "Davis",
+      "birthDate": "2512"
+    }
+  }
