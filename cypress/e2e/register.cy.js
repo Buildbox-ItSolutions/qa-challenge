@@ -29,7 +29,7 @@ describe("Feature: Registering", () => {
   it("should correctly open the register website", () => {
     expect(cy.get('[data-cy="button-btn-enroll"]')).to.exist;
   });
-  it("should correctly open the register website", () => {
+  it("should successfully register a new user", () => {
     cy.get('[data-cy="button-btn-enroll"]').click();
     cy.personalData(
       newUser.firstName,
@@ -87,7 +87,7 @@ describe("Feature: Registering", () => {
     );
     expect(cy.get("span.input-error").contains("Email inválido.")).to.exist;
   });
-  it.only("should validate the field: mismatching emails", () => {
+  it("should validate the field: mismatching emails", () => {
     cy.get('[data-cy="button-btn-enroll"]').click();
     cy.get('[data-cy="input-signup-personal-data-firstName"]').type(
       newUser.firstName
@@ -150,7 +150,7 @@ describe("Feature: Registering", () => {
 });
 
 describe("Feature: Login", () => {
-  xit("should login with the registered email", () => {
+  it("should login with the registered email", () => {
     cy.visit("/sign-in");
     cy.wait(200);
     cy.get("#user_login").type(staticData.email);
